@@ -15,8 +15,8 @@ public class Circulo {
     public Circulo() {
     }
     public Circulo(double radio, String color){
-        radio = this.radio;
-        color= this.color;
+        this.radio = radio;
+        this.color = color;
     }
 
     public String getColor() {
@@ -42,7 +42,7 @@ public class Circulo {
 
     @Override
     public String toString() {
-        return "Circulo:" + "radio:" + radio + ", color:" + color +",Radio:" + getArea(radio);
+        return "Circulo:" + "radio:" + radio + ", color:" + color +",Area:" + getArea(radio);
     }
     
     

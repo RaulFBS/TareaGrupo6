@@ -60,7 +60,7 @@ public class VentanaTriangulo extends javax.swing.JFrame {
 
         jTextField2.addActionListener(this::jTextField2ActionPerformed);
 
-        jLabel8.setText("X1:");
+        jLabel8.setText("X2:");
 
         jLabel9.setText("X2:");
 
